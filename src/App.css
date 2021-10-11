@@ -1,3 +1,20 @@
+
+.LifeStyle{
+  text-align: center;
+  background-color: bisque;
+  color:cadetblue;
+}
+.Projects{
+  text-align: center;
+  background-color: darkolivegreen;
+  color: tan;
+}
+.HigherSelf{
+  text-align: center;
+  background-color: darkorchid;
+  color: white;
+}
+
 .App {
   text-align: center;
 }
@@ -14,7 +31,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #6189da;
   min-height: 100vh;
   display: flex;
   flex-direction: column;

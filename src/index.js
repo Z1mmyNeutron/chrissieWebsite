@@ -2,11 +2,18 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import LifeStyle from './Pages/LifeStyle.js';
+import Projects from './Pages/Projects.js'
+import HigherSelf from './Pages/HigherSelf.js';
 import reportWebVitals from './reportWebVitals';
+
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    <LifeStyle/>
+    <Projects/>
+    <HigherSelf/>
   </React.StrictMode>,
   document.getElementById('root')
 );
