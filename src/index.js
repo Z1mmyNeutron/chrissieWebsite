@@ -6,14 +6,19 @@ import LifeStyle from './Pages/LifeStyle.js';
 import Projects from './Pages/Projects.js'
 import HigherSelf from './Pages/HigherSelf.js';
 import reportWebVitals from './reportWebVitals';
+import Art from './Pages/Art.js'
+
 
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    <Art/>
     <LifeStyle/>
     <Projects/>
     <HigherSelf/>
+    <script src="Pages/Three/three.js"></script>
+    <script src="Pages/Three/index.js"></script>
   </React.StrictMode>,
   document.getElementById('root')
 );
