@@ -3,24 +3,45 @@
   text-align: center;
   background-color: bisque;
   color:cadetblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
 }
 .Projects{
   text-align: center;
   background-color: darkolivegreen;
   color: tan;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
 }
 .HigherSelf{
   text-align: center;
   background-color: darkorchid;
   color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
 }
 .Art{
   text-align: center;
   background-color: darkorchid;
   color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
 }
 .App {
   text-align: center;
+
 }
 
 .App-logo {
@@ -36,6 +57,7 @@
 
 .App-header {
   background-color: #6189da;
+  background-image: url('./Pages/Media/homeBackground.jpg');
   min-height: 100vh;
   display: flex;
   flex-direction: column;

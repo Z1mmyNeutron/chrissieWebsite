@@ -1,5 +1,12 @@
 
-     
+import gods from "./Media/gods.JPG" 
+import angelWing from "./Media/angelWing.JPG" 
+import mountains from "./Media/mountains.jpg" 
+import sunset from "./Media/sunset.JPG" 
+import turtleDuck from "./Media/turtleDuck.PNG" 
+import twinFlame from "./Media/twinFlame.JPG" 
+import yellowDuck from "./Media/yellowDuck.JPG"
+
 import React from "react"
 
 
@@ -20,7 +27,25 @@ export default class Art extends React.Component{
           <h1>Art</h1>
             <p>Style</p>
             <p>fashion</p>
-    
+            <p>Augmented Reality</p>
+            <p>Paintings</p>
+            <img src={gods} alt="Gods" />
+            <img src={mountains} alt="Mountains" />
+            <img src={sunset} alt="Sunset" />
+            <img src={turtleDuck} alt="TurtleDuck" />
+            <img src={twinFlame} alt="TwinFlame" />
+            <img src={yellowDuck} alt="YellowDuck" />
+            
+
+            <a
+              className="Art-link"
+              href="https://reactjs.org"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              
+             
+            </a>
           </header>
         </div>
         )

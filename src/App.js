@@ -1,11 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
 
+import './App.css';
+import me from './Pages/Media/homeBackground.jpg'
+
+//Logo, put this right under the header + import the picture you want to use 
+//<img src={logo} className="App-logo" alt="logo" />
+// if you want actual pictures: <img src={me} alt="Me" />
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+  
+       
         <h1>Christina Rosalie Zimmer</h1>
         <p>
          I do amazing things.
@@ -16,7 +21,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+    
         </a>
       </header>
     </div>
